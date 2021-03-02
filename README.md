@@ -16,7 +16,7 @@ Python code:
 import requests
 import json
 
-BASE = 'https://salty-eyrie-63878.herokuapp.com/predict'
+BASE = 'https://peaceful-journey-07197.herokuapp.com/predict'
 
 data = [{
 		"Room Count": 2,
