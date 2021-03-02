@@ -9,7 +9,7 @@ This project has four major parts :
 
 ## Running the project
 The project is hosted by Heroku and the model and history can be accessed via requests.
-1. You can send POST requests to [/predict](https://salty-eyrie-63878.herokuapp.com/predict) FLask API using Python's inbuilt request module or Postman platform. <br>
+1. You can send POST requests to [/predict](https://peaceful-journey-07197.herokuapp.com/predict) FLask API using Python's inbuilt request module or Postman platform. <br>
 Below is an example of how to run a command to send the request with some pre-popuated values. <br>
 Python code:
 ```
@@ -34,4 +34,4 @@ Result:
 ```
 >> {"Predicted house prices": [62450.53862953569]}
 ```
-2. You can also send GET requests to [/history](https://salty-eyrie-63878.herokuapp.com/history) FLask API using Python's inbuilt request module or Postman platform. <br>
+2. You can also send GET requests to [/history](https://peaceful-journey-07197.herokuapp.com/history) FLask API using Python's inbuilt request module or Postman platform. <br>
