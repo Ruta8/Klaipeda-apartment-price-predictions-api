@@ -1,5 +1,6 @@
 # Klaipėda apartment price predictor API connected to Heroku Database
-This project is an API created using Flask. The API allows to send POST requests to it with some apartment features and uses an ML model to predict prices for apartments in Klaipeda. The model was trained on data collected with Klaiped-apartment-scraper-package, which you may also find between my public git repositories. The API also allows GET requests that show the last ten price predictions and the features and values used for those predictions. Last ten price predictions are stored in 
+This project is an API created using Flask. The API allows to send POST requests to it with some apartment features and uses an ML model to predict prices for apartments in Klaipeda. The model was trained on data collected with Klaiped-apartment-scraper-package, which you may also find between my public git repositories. The API also allows GET requests that show the last ten price predictions and the features and values used for those predictions. Last ten price predictions are stored in a Heroku database. <br>
+__NOTE__ the model for price predictions should not be used as examplary as the focus of this project was to make a working API.
 
 ## Project Structure
 This project has four major parts :
